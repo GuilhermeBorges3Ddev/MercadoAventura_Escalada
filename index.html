@@ -8,49 +8,101 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Font-Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+    <!-- Handmade CSS -->
+    <link rel="stylesheet" href="/src/css/style.css">
+
     <title>Navbar teste</title>
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Curso</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSite">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Serviços</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Depoimentos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contatos</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dorpdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
-                                    Social
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Facebook</a>
-                                    <a class="dropdown-item" href="#">Twitter</a>
-                                    <a class="dropdown-item" href="#">Instagram</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <form class="form-inline">
-                            <input  class="form-control ml-4 mr-2" type="search" placeholder="Buscar produto...">
-                            <button class="btn btn-dark" type="submit">Ok</button>
-                        </form>
-                </div>
-            </div>
+     <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Loja Matriz</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Fretes</a></li>
+            </ul>
         </nav>
+        <!-- Top Container -->
+        <section class="top-container">
+            <header class="showcase">
+                <h1>Your Web Presence</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Vero at animi suscipit. Dignissimos, voluptatem! Illum.
+                </p>
+                <a href="#" class="btn">ICON</a>
+            </header>
+            <div class="top-box top-box-a">
+                <h4>Membership</h4>
+                <p class="price">$99/mo</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="top-box top-box-b">
+                <h4>Pro Membership</h4>
+                <p class="price">$150/mo</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </section>
+        <!-- Boxes Section -->
+        <section class="boxes">
+            <div class="box">
+                <i class="fas fa-chart-pie fa-4x"></i>
+                <h3>Analytics</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, commodi.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe fa-4x"></i>
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, commodi.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-cog fa-4x"></i>
+                <h3>Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, commodi.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-users fa-4x"></i>
+                <h3>Support</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, commodi.</p>
+            </div>
+        </section>
+        <!-- Info Section -->
+        <section class="info">
+            <img src="/src/img/pic1.jpeg" alt="pic1">
+            <div>
+                <h2>Your Business On The Web</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Hic architecto atque, quod quisquam accusantium autem. 
+                    Eveniet, voluptate commodi necessitatibus autem sit, dolores quisquam dolor asperiores nobis illum vitae consectetur culpa.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section class="portfolio">
+            <img src="https://source.unsplash.com/random/200x200" alt="">
+            <img src="https://source.unsplash.com/random/201x200" alt="">
+            <img src="https://source.unsplash.com/random/203x200" alt="">
+            <img src="https://source.unsplash.com/random/204x200" alt="">
+            <img src="https://source.unsplash.com/random/205x200" alt="">
+            <img src="https://source.unsplash.com/random/206x200" alt="">
+            <img src="https://source.unsplash.com/random/207x200" alt="">
+            <img src="https://source.unsplash.com/random/202x200" alt="">
+            <img src="https://source.unsplash.com/random/208x200" alt="">
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p>Mercado Aventura &copy; 2019</p>
+        </footer>
+     </div>   
+     <!-- Wrapper Ends -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
